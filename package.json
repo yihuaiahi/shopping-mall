@@ -1,0 +1,33 @@
+{
+  "name": "shopping-mall",
+  "version": "1.0.0",
+  "description": "shopping_mall前端代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --port 8088",
+    "dist": "inline webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yihuaiahi/shopping-mall.git"
+  },
+  "author": "yihuaihai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yihuaiahi/shopping-mall/issues"
+  },
+  "homepage": "https://github.com/yihuaiahi/shopping-mall#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "dependencies": {}
+}
